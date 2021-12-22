@@ -15,14 +15,14 @@ namespace ManyoLibrary
 
         public string Nazov { get => nazov; set => nazov = value; }
 
-        public void SetRokVydania(int rokVydania)
+        public SkrinaNaKnihy GetSkrina()
         {
-            _rokVydania = rokVydania;
+            return _skrina;
         }
 
-        public int GetRokVydania()
+        public void SetSkrina(SkrinaNaKnihy skrina)
         {
-            return _rokVydania;
+            _skrina = skrina;
         }
 
         public Kniha(string meno, int rok) //konstructor
@@ -39,7 +39,7 @@ namespace ManyoLibrary
             Init();
             Nazov = meno;
             _rokVydania = rok;
-            _skrina = skrina;
+            SetSkrina(skrina);
         }
 
         void Init()
