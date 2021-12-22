@@ -16,7 +16,7 @@ Vymodeluj dom podla nasledovneho zadania (Do projektu s menom "MojDom" - tento p
 
 2. Napis program ktory vytvori jeden dom, ale moze aj dva a vypise na console (pouzi na to projekt "MainProgram")
    - meno domu
-   - poschodia
+   - aspon 2 poschodia
    - mena izieb na kazdom poschodi a ich rozlohu v m2
 
 Poznamka: pre kazdu izbu co vytvoris napis aspon dva konstruktory, nemusis ich vsak pouzit.
