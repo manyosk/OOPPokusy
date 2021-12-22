@@ -57,6 +57,7 @@ namespace MainProgram
             dom1.VypisDom();
 
             Console.ReadKey();
+            Console.ReadKey();
         }
 
         
