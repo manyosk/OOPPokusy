@@ -1,0 +1,23 @@
+Vymodeluj dom podla nasledovneho zadania (Do projektu s menom "MojDom" - tento projekt ma byt kniznicou s vystupom ako dll (dynamicky linkovana kniznica)) :
+1. Dom musi obsahovat:
+     - mesto kde sa nachadza
+     - Ulicu
+     - cislo domu
+     - identifikator (nieco ako meno napr. Dom1, Dom2, ...)
+     - Poschodia (pricom poschodie musi obsahovat)
+        - poradove cislo poschodia
+        - textovy nazov poschodia (napr.: "1.Poschodie, Prizemie, Pivnica, Podkrovie, 2.Poschodie", ...)
+        - Izby aspon 2 izby, pricom kazda izba musi obsahovat
+            - sirku
+            - dlzku
+            - vysku
+            - meno
+            - kratky popis izby
+
+2. Napis program ktory vytvori jeden dom, ale moze aj dva a vypise na console (pouzi na to projekt "MainProgram")
+   - meno domu
+   - poschodia
+   - mena izieb na kazdom poschodi a ich rozlohu v m2
+
+Poznamka: pre kazdu izbu co vytvoris napis aspon dva konstruktory, nemusis ich vsak pouzit.
+   :)
