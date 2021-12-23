@@ -8,28 +8,34 @@ namespace ManyoLibrary
 {
     public class Kniha
     {
-        public string _sNazov = "";
-        public int _iRokVydania = 0;
+        private string _sNazov = "";
+        private int _iRokVydania = 0;
         public SkrinaNaKnihy _cSkrina = null;
+
+        public string SNazov 
+        { 
+            get => _sNazov; 
+            set => _sNazov = value + "pokus";
+        }
 
         public Kniha(string meno, int rok) //konstructor
         {
             Init();
-            _sNazov = meno;
+            SNazov = meno;
             _iRokVydania = rok;
         }
 
         public Kniha(string meno, int rok, SkrinaNaKnihy skrina) //konstructor
         {
             Init();
-            _sNazov = meno;
+            SNazov = meno;
             _iRokVydania = rok;
             _cSkrina = skrina;
         }
 
         void Init()
         {
-            _sNazov = "";
+            SNazov = "";
             _iRokVydania = 0;
         }
 

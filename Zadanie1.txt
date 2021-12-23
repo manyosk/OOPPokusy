@@ -21,3 +21,7 @@ Vymodeluj dom podla nasledovneho zadania (Do projektu s menom "MojDom" - tento p
 
 Poznamka: pre kazdu izbu co vytvoris napis aspon dva konstruktory, nemusis ich vsak pouzit.
    :)
+
+#New tasks
+3. Dopln svoje triedy o vypocet rozlohy celeho poschodia a celeho domu. Vypis tieto rozlohy na consolu.
+4. Zmen vsetky atributy v triedach na private a tie ku ktorym je potrebne pristupit z vonku triedy, tie zmen na Property (vlastnosti) a pristupuj k nim cez tie.
